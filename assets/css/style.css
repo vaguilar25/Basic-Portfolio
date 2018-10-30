@@ -1,58 +1,107 @@
+/* header */
+.header {
+    background-color:#ffffff;
+    
+    border-bottom: 3px solid #cccccc ;
+    font-family: Georgia, Times, "Times New Roman" , serif;
+}
+
 /* Navigation bar */
 .navBar {
-    background-color: green;
+  
    display:inline-flex;
   justify-content: flex-end; 
-  width:36%;
+  width:53%;
+  color:#777777;    
 }
 
 .navBar a {
 
-  color: #030303;
+  
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  color:#777777; 
 
 }
 
 /* Display Name on the header */
 .nameHeader {
     display:inline-block;  
-    padding-left: 25%;
+    padding-left: 16%;
   
     padding-bottom: 0%; 
+   
 }
 
 .nameHeader2  {
  background-color: #4aaaa5;
  border:double;
- border-color:b#4aaaa5;
- padding-bottom: 0%;  
+ border-color:#4aaaa5;
+ padding-bottom: 0%; 
+  
 }
 
 /* Body Container */
+.backContainer {
+
+    background-image: url("assets/images/gravel.png");
+    background-repeat: repeat;
+    background-size: auto;
+    padding-top:30px;
+    padding-bottom:90px;
+}
 .container {
- width: 50%;
- background-color: blue;
- position: relative;
-   left:25%;    
+ width: 960px;
+ background-color:#ffffff;
+ border:solid #dddddd 2px;
+ padding:20px 20px 20px 20px ;
+ margin-left: auto;
+ margin-right:auto;    
 }
 .about img {
     float: left;
     padding: 0px 20px 20px 0px;
 }
 
-/* general */
-hr {
-    
-    border: 1px inset;
-    
-    display: block;
-    height: 1px;
-    margin: 0.1em auto;
+/* footer */
+
+
+.footer {
+    padding-top: 0%; 
+    border-top: 7px solid #4aaaa5; ;
+    background-color: #777777;
+ 
+  height:50px;  
+  
+  position:relative;
+  text-align: center;
 }
+
+.footer span {
+    position: absolute;
+    bottom: 0;
+    font-size: 12px; 
+    color:#cccccc;
+   
+}
+
+
+/* general */
+
 
 p {
     color:#777777;
+    line-height: 1.6;
+}
+
+body {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+       
+}
+
+h2 {
+    font-family: Georgia, Times, "Times New Roman" , serif;
+    color:#4aaaa5;
 }
