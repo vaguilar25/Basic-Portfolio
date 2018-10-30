@@ -1,0 +1,30 @@
+.navBar {
+    
+    display:inline-flex;
+  justify-content: flex-end; 
+  width:70%;
+}
+
+.navBar a {
+
+  color: #030303;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+#nameHeader {
+    display:inline-block;
+  
+    
+}
+
+.about p {
+
+
+}
+.about img {
+    float: left;
+    padding: 0px 20px 20px 0px;
+}
