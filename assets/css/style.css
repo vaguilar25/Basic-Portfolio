@@ -1,8 +1,9 @@
+/* Navigation bar */
 .navBar {
-    
-    display:inline-flex;
+    background-color: green;
+   display:inline-flex;
   justify-content: flex-end; 
-  width:70%;
+  width:36%;
 }
 
 .navBar a {
@@ -14,17 +15,44 @@
   font-size: 17px;
 
 }
-#nameHeader {
-    display:inline-block;
+
+/* Display Name on the header */
+.nameHeader {
+    display:inline-block;  
+    padding-left: 25%;
   
-    
+    padding-bottom: 0%; 
 }
 
-.about p {
+.nameHeader2  {
+ background-color: #4aaaa5;
+ border:double;
+ border-color:b#4aaaa5;
+ padding-bottom: 0%;  
+}
 
-
+/* Body Container */
+.container {
+ width: 50%;
+ background-color: blue;
+ position: relative;
+   left:25%;    
 }
 .about img {
     float: left;
     padding: 0px 20px 20px 0px;
+}
+
+/* general */
+hr {
+    
+    border: 1px inset;
+    
+    display: block;
+    height: 1px;
+    margin: 0.1em auto;
+}
+
+p {
+    color:#777777;
 }
