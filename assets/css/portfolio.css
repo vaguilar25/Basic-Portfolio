@@ -1,0 +1,26 @@
+.portfolio div {
+    float:left;
+    
+   
+}
+.portfolio img {
+    height: 140px;
+    width: 140px;
+    margin:5px;
+}
+
+.image {
+    position: relative;
+  margin:0;
+  
+}
+.box1 {
+  
+   background-color:#4aaaa5;
+   width:140px;
+   height:20px;
+   position:absolute;
+   left:5px;
+   top:100px;
+   margin:0;
+}

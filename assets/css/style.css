@@ -5,12 +5,13 @@
     
     border-bottom: 3px solid #cccccc ;
     font-family: Georgia, Times, "Times New Roman" , serif;
+
 }
 
 /* Navigation bar */
 .navBar {
   
-   display:inline-flex;
+  display:inline-flex;
   justify-content: flex-end; 
   width:53%;
   color:#777777;    
@@ -30,7 +31,7 @@
 /* Display Name on the header */
 .nameHeader {
     display:inline-block;  
-    padding-left: 14.5%;
+    padding-left: 15%;
   
     padding-bottom: 0%; 
    
@@ -55,6 +56,7 @@
 }
 .container {
  width: 960px;
+ height:500px;
  background-color:#ffffff;
  border:solid #dddddd 1px;
  padding:20px 20px 20px 20px ;
@@ -64,11 +66,13 @@
 
 .container hr {
     border-color:#dddddd;
+    border-style: solid;
 }
 .about img {
     float: left;
     padding: 0px 20px 20px 0px;
-   
+    height: 100px;
+    width: 100;
 }
 
 /* footer */
@@ -100,6 +104,11 @@
 p {
     color:#777777;
     line-height: 1.6;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 body {
@@ -111,9 +120,23 @@ body {
 h2 {
     font-family: Georgia, Times, "Times New Roman" , serif;
     color:#4aaaa5;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 h1 {
     color:white;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 
 }
