@@ -1,26 +1,36 @@
-.portfolio div {
-    float:left;
-    
-   
-}
+
+/* Format portfolio images */
 .portfolio img {
-    height: 140px;
-    width: 140px;
+    height: 200px;
+    width: 200px;
     margin:5px;
 }
 
 .image {
-    position: relative;
+  position: relative;
   margin:0;
-  
+  float:left;
 }
+
+/* Format image box */
 .box1 {
   
    background-color:#4aaaa5;
-   width:140px;
+   width:200px;
    height:20px;
    position:absolute;
    left:5px;
-   top:100px;
+   top:150px;
    margin:0;
+   color:white;
+   text-align: center;
+   font-family: Georgia, Times, "Times New Roman" , serif;
 }
+
+/* Format of the next line image */
+
+
+  .right {
+      float:left;
+      clear:both;
+    }
