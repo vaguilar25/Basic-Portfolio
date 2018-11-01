@@ -3,7 +3,7 @@
 Build a professional portfolio site using HTML/CSS
 
 ## Topics that we have covered
-* Use of Git: Creating a repository, 
+* Use of Git: Creating a repository
 ```
     * clone 
     * add 
