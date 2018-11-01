@@ -3,6 +3,7 @@
 .contact {
     color: #777777;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 20px;
 }
 
 input[type=text] {
