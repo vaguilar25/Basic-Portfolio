@@ -3,8 +3,11 @@
 .portfolio img {
     height: 200px;
     width: 200px;
-    margin:5px;
+    margin:15px;
+    
 }
+
+
 
 .image {
   position: relative;
@@ -17,15 +20,25 @@
   
    background-color:#4aaaa5;
    width:200px;
-   height:20px;
+   height:30px;
    position:absolute;
-   left:5px;
-   top:150px;
+   left:15px;
+   top:160px;
    margin:0;
    color:white;
    text-align: center;
    font-family: Georgia, Times, "Times New Roman" , serif;
 }
+
+
+.box1:hover {
+-ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
 
 /* Format of the next line image */
 
