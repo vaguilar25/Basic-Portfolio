@@ -1,90 +1,51 @@
 # Basic-Portfolio
 
-<p>This is the initial portfolio</p>
-# Project Title
+Build a professional portfolio site using HTML/CSS
 
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
+## Topics that we have covered
+* Use of Git: Creating a repository, 
 ```
-Give examples
+    * clone 
+    * add 
+    * commit 
+    * push
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+* HTML Structure: 
 ```
-Give the example
+    H1, H2, Hr, Img, Form, Div, Span, link css
 ```
-
-And repeat
-
+* CSS: 
 ```
-until finished
+    Classes, Id 
+```
+```
+    CSS Properties: 
+
+    background-color, width, height, padding, 
+    float, overflow, margins, fonts, justify-content, 
+    border, background-image, hover ,clear.
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Visual Studio Code](https://code.visualstudio.com/) - The editor used
+* [GitHub](https://github.com/) - Version Control
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+I use [GitHub](https://github.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/vaguilar25/Basic-Portfolio/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Vivian Aguilar** 
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Jerome Chenette
+* Sasha Pastel
+* Jimmy Tu
