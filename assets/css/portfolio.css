@@ -10,8 +10,15 @@
   position: relative;
   margin: 0;
   float: left;
+  transition: transform .2s ease-in-out;
+  
 }
 
+.image:hover {
+  
+  transform:  scale(1.5);
+ 
+}
 /* Format image ribbon */
 
 .ribbon {
