@@ -2,7 +2,6 @@
 /* header */
 .header {
     background-color:#ffffff;
-    
     border-bottom: 3px solid #cccccc ;
     font-family: Georgia, Times, "Times New Roman" , serif;
 
@@ -70,9 +69,9 @@
 }
 .about img {
     float: left;
-    padding: 0px 20px 20px 0px;
-    height: 100px;
-    width: 100;
+    padding: 0px 20px 10px 0px;
+    height: 150px;
+    width: 150;
 }
 
 /* footer */
