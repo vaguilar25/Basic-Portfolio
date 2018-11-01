@@ -1,49 +1,43 @@
-
 /* Format portfolio images */
+
 .portfolio img {
-    height: 200px;
-    width: 200px;
-    margin:15px;
-    
+  height: 200px;
+  width: 200px;
+  margin: 15px;
 }
-
-
 
 .image {
   position: relative;
-  margin:0;
-  float:left;
+  margin: 0;
+  float: left;
 }
 
-/* Format image box */
-.box1 {
-  
-   background-color:#4aaaa5;
-   width:200px;
-   height:30px;
-   position:absolute;
-   left:15px;
-   top:160px;
-   margin:0;
-   color:white;
-   text-align: center;
-   font-family: Georgia, Times, "Times New Roman" , serif;
+/* Format image ribbon */
+
+.ribbon {
+  background-color: #4aaaa5;
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  left: 15px;
+  top: 160px;
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-
-.box1:hover {
--ms-transform: rotate(-5deg);
+.ribbon:hover {
+  -ms-transform: rotate(-5deg);
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
   -o-transform: rotate(-5deg);
   transform: rotate(-5deg);
 }
 
-
 /* Format of the next line image */
 
-
-  .right {
-      float:left;
-      clear:both;
-    }
+.right {
+  float: left;
+  clear: both;
+}
